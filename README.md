@@ -1,3 +1,5 @@
+A heap-based buffer overflow issue was discovered in tinydng in tiny_dng_loader.h file. The flow allows an attacker to cause a denial of service (abort) via a crafted file.
+
 AddressSanitizer: heap-buffer-overflow  in __interceptor_memcpy
 
 READ of size 6927 at 0x619000000430 thread T0
