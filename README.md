@@ -6,7 +6,7 @@ READ of size 6927 at 0x619000000430 thread T0
 [ASAN_tinydng](https://github.com/10cksYiqiyinHangzhouTechnology/tinydngSecurityIssueReport-1-/blob/main/asan_tinydng)
 
 ASAN Report:
-```
+```bash
 ubuntu@ubuntu:~/Desktop/tinydng/out/default/crashes$ ~/Desktop/tinydng/asan_tinydng id:000013,sig:11,src:000603,time:45067989,execs:9583622,op:havoc,rep:2
 =================================================================
 ==3260705==ERROR: AddressSanitizer: heap-buffer-overflow on address 0x619000000430 at pc 0x7ffff7620490 bp 0x7fffffff2f40 sp 0x7fffffff26e8
