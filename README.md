@@ -1,4 +1,4 @@
-**AddressSanitizer: heap-buffer-overflow  in __interceptor_memcpy**
+AddressSanitizer: heap-buffer-overflow  in __interceptor_memcpy
 
 READ of size 6927 at 0x619000000430 thread T0
 
